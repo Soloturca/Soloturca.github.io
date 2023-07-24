@@ -1,0 +1,111 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+
+    background: url(data:image/jpeg;base64,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);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar {
+
+    width: 100%;
+    height: 100px;
+    background: #9400e7
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    user-select: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+
+    background: orangered;
+    border-radius: 20px;
+}
+
+.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%-50%);
+    font-family: sans-serif;
+    font-size: 25px;
+    user-select: none;
+}
+
+.container .logo .linkedinLogo img {
+    user-select: none;
+}
+
+.container .logo .githubLogo img {
+    user-select: none;
+}
+
+.container .profilePhoto img {
+    user-select: none;
+    width: 500px;
+    height: 500px;
+    margin-top: 350px;
+    margin-left: 650px;
+}
+
+.center h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.center h2 {
+    color: rebeccapurple;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.center button {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background: gainsboro;
+    border: solid 5px green;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.center button:hover {
+    background: white;
+}
